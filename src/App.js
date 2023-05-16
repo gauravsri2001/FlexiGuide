@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route,Routes, BrowserRouter } from "react-router-dom";
+import {Box} from '@mui/material';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./web_pages/Home";
+import ExerciseDetail from "./web_pages/ExerciseDetail";
+import Footer from "./components/Footer";
+const App = () =>{
+  return(
+    <Box width= "400px" sx={{width:{xl: '1488px'}}} m="auto">
+    <Navbar />
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <BrowserRouter>
 
+    <Routes>
+    <Route path="/" element = {<Home />} />
+    <Route path="/exercise/:id" element={<ExerciseDetail />} />
+    </Routes>
+    <Footer />
+
+    </BrowserRouter>
+
+    
+
+    
+    </Box>
+
+  )
+};
 export default App;
