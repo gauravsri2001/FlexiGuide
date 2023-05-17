@@ -8,18 +8,26 @@ import Logo from '../pics/Logo.png';
 const Navbar = () => {
   return (
     
-    <Stack>
+    <Stack
+    direction={'row'}
+    justifyContent={'space-around'}
+    sx={{gap:{sm: '122px', xs: '40px'}, mt:{sm: '32px',xs: '20px'}, justifyContent: 'none'}} px = '20px' >
 
     <div>
     <Link to="/">
-    <img src={Logo} alt='Logo' style={{width: '80px', height: 'auto', margin: '0 5px' }} />
+    <img src={Logo} alt='Logo' style={{width: '80px', height: 'auto', margin: '0 20px' }} />
     </Link>
     </div>
 
-    <Stack>
-      {/* <Link to={"/"}>
-
-      </Link> */}
+    <Stack 
+    direction= {'row'}
+    gap={"40px"}
+    fontSize={'25px'}
+    alignItems={"flex-end"}>
+      <Link to={"/"} style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>
+      Home
+      </Link>
+      <a href='#exercises' style={{textDecoration: 'none', color: '#3A1212'}}>Exercises</a>
     </Stack>
     
     
