@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 const App = () =>{
   return(
     // making website responsive 
-    <Box width= "400px" sx={{width:{xl: '1488px'}}} m="auto"> 
+    <Box width= "400px" sx={{width:{xl: '1488px'}}} m="20px"> 
     <Navbar />
 
     <BrowserRouter>
