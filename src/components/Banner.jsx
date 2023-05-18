@@ -1,5 +1,6 @@
-import { Box, Button, Typography } from '@mui/material'
-import React from 'react'
+import { Box, Button, Typography } from '@mui/material';
+import React from 'react';
+import banner_img from '../pics/banner_img.png';
 
 const Banner = () => {
   return (
@@ -36,6 +37,8 @@ const Banner = () => {
         href='#exercises'>
             Explore Exercises
         </Button>
+
+        <img src={banner_img} alt='banner' className='hero-banner-img' />
 
     </Box>
   )
