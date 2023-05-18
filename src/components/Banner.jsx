@@ -18,9 +18,11 @@ const Banner = () => {
 
         <Typography fontWeight={750} textAlign={'inherit'} justifyContent={'center'}
         sx={{
-            fontSize:{lg: '44px', xs:'40px'}
-            
-        }}>
+            fontSize:{lg: '44px', xs:'40px'}  
+        }}
+        mb={"23px"}
+        mt={"30px"}
+        >
         WORK 💪, <br/> SWEAT and <br /> ACHIEVE 🏆
         </Typography>
 
@@ -34,12 +36,26 @@ const Banner = () => {
         <Button 
         variant='contained' 
         color='error'
-        href='#exercises'>
+        href='#exercises'
+        sx={{backgroundColor: '#ff2625',
+        padding: '10px'}}
+        >
             Explore Exercises
         </Button>
 
-        <img src={banner_img} alt='banner' className='hero-banner-img' />
+        <Typography
+        fontWeight={600}
+        color={'#ff2625'}
+        sx={{
+            opacity: 0.1,
+            display: {lg: 'block', xs: 'none'}
+        }}
+        fontSize={"170px"}
+        >
+            Exercise
+        </Typography>
 
+        <img src={banner_img} alt='banner' className='banner-img'  />
     </Box>
   )
 }
