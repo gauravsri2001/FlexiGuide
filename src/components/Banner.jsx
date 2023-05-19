@@ -24,7 +24,7 @@ const Banner = () => {
         }}
         mb={"23px"}
         mt={"30px"}
-        ml={"30px"}
+        //ml={"30px"}
         >
         WORK 💪, <br/> SWEAT and <br /> ACHIEVE 🏆
         </Typography>

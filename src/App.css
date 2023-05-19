@@ -56,13 +56,13 @@ body {
 .banner-img {
   position: absolute;
   right: 40px;
-  top: 0;
+  top: 0px;
   width: 550px;
   height: 700px;
   margin-top: -150px;
-  margin-left: 0;
-  border-radius: 50px;
-  overflow: hidden;
+  overflow:hidden;
+  border-radius: 50px
+
 }
 
 .exercise-card {
