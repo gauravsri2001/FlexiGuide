@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <Box>
     <Banner />
+    
     <SearchExercise />
     <Exercises />
 

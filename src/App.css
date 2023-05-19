@@ -53,30 +53,17 @@ body {
   height: 742px;
 }
 
-/* .banner-img {
-  position: absolute;
-  right: 40px;
-  top: 0px;
-  width: 550px;
-  height: 700px;
-  margin-top: -220px;
-  margin-left: 100px;
-  border-radius: 50px;
-  overflow: hidden;
-} */
 .banner-img {
   position: absolute;
   right: 40px;
   top: 0;
   width: 550px;
   height: 700px;
-  margin-top: -200px;
+  margin-top: -150px;
   margin-left: 0;
   border-radius: 50px;
   overflow: hidden;
 }
-
-
 
 .exercise-card {
   width: 400px;

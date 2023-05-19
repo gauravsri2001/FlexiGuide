@@ -5,9 +5,11 @@ import banner_img from '../pics/banner_img.png';
 const Banner = () => {
   return (
     <Box sx={{
-        mt: {lg: '212px', xs: '70px'},
-        ml: {sm: '50px'}
-    }} position={'relative'} p={'25px'}>
+        mt: {lg: '150px', xs: '70px'},
+        ml: {sm: '50px'},
+        
+        mb: {sm: '150px'}
+    }} position={'relative'} p={'25px'} >
         <Typography 
         color={'#FF2625'}
         fontWeight={'600'}
@@ -51,16 +53,17 @@ const Banner = () => {
             opacity: 0.1,
             display: {lg: 'block', xs: 'none'}
         }}
-        fontSize={"170px"}
+        mt={"15px"}
+        fontSize={"80px"}
         >
-            Exercise
+        Stop Thinking <br />
+        Start Doing
         </Typography>
 
         
         <img src={banner_img} alt='banner' className='banner-img'  />
 
-        
-            
+
     </Box>
     
   )
