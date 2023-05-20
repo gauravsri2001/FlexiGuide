@@ -56,8 +56,10 @@ const Banner = () => {
         mt={"15px"}
         fontSize={"80px"}
         >
-        Stop Thinking <br />
-        Start Doing
+        {/* Stop Thinking <br />
+        Start Doing */}
+        SHAPE YOUR <br />
+        IDEAL BODY
         </Typography>
 
         
