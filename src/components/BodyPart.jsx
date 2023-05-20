@@ -2,7 +2,6 @@
 
 import { Stack, Typography } from '@mui/material';
 import React from 'react';
-import Logo from '../pics/Logo.png';
 import card_logo from '../pics/card_logo.png'
 
 
