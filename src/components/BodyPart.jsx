@@ -19,7 +19,7 @@ import React from 'react';
 import Logo from '../pics/Logo.png';
 
 
-const BodyPart = ({item, setBodyPart, bodyPart, imgUrl}) => {
+const BodyPart = ({item, setBodyPart, bodyPart}) => {
   return (
     <Stack
     type='button'
@@ -29,11 +29,11 @@ const BodyPart = ({item, setBodyPart, bodyPart, imgUrl}) => {
     sx={{
         borderTop: bodyPart === item ? '4px solid #ff2625' : '',
         backgroundColor: '#fff',
-            borderBottomLeftRadius: '20px',
-            width: '270px',
-            height: '280px',
-            cursor: 'pointer',
-            gap: '47px'
+        borderBottomLeftRadius: '20px',
+        width: '270px',
+        height: '280px',
+        cursor: 'pointer',
+        gap: '47px'
     }}
        
     >
