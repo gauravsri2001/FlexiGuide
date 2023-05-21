@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/system'
+import { Typography } from '@mui/material'
 import BodyPart from './BodyPart'
 import {VisibilityContext} from 'react-horizontal-scrolling-menu';
 import RightArrowIcon from '../pics/right-arrow.png';
@@ -29,7 +30,7 @@ const RightArrow = () => {
 
 
 
-const HorizontalScrollbar = ({ data, bodyPart, setBodyPart }) => {
+const HorizontalScrollbar = ({ data,bodyPart,setBodyPart}) => {
   return (
     <div style={{ overflowX: "scroll", whiteSpace: "nowrap" }}>
     
