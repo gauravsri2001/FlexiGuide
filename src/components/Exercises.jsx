@@ -39,7 +39,6 @@ import { Box, Pagination, Typography } from '@mui/material'
 import { Stack } from '@mui/system'
 import React, { useState } from 'react'
 import { useEffect } from 'react'
-//import { exerciseOption, fetchData } from '../utils/fetchData'
 import { exerciseOptions, fetchData } from '../utility_functions/fetchData';
 import ExerciseCard from './ExerciseCard'
 
