@@ -11,14 +11,15 @@ const Banner = () => {
         mb: {sm: '150px'}
     }} position={'relative'} p={'25px'} >
         <Typography 
-        color={'#FF2625'}
+        // color={'#FF2625'}
+        color={'#FE8040'}
         fontWeight={'600'}
         fontSize={'25px'}
         >
         Fitness Club
         </Typography>
 
-        <Typography fontWeight={750} textAlign={'inherit'} justifyContent={'center'}
+        <Typography color={'#f7f2f2'} fontWeight={750} textAlign={'inherit'} justifyContent={'center'}
         sx={{
             fontSize:{lg: '44px', xs:'40px'}  
         }}
@@ -32,7 +33,8 @@ const Banner = () => {
         <Typography 
         fontSize={'25px'}
         lineHeight={'35px'}
-        mb={3}>
+        mb={3}
+        color={'#FEFF86'}>
             Check out the most effective Exercises
         </Typography>
 
@@ -40,7 +42,7 @@ const Banner = () => {
         variant='contained' 
         color='error'
         href='#exercises'
-        sx={{backgroundColor: '#ff2625',
+        sx={{backgroundColor: '#FE8040',
         padding: '10px'}}
         >
             Explore Exercises
@@ -48,9 +50,10 @@ const Banner = () => {
 
         <Typography
         fontWeight={600}
-        color={'#ff2625'}
+        color={'#FFD95A'}
+
         sx={{
-            opacity: 0.1,
+            //opacity: 0.4,
             display: {lg: 'block', xs: 'none'}
         }}
         mt={"15px"}
