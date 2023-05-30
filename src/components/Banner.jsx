@@ -65,9 +65,7 @@ const Banner = () => {
         IDEAL BODY
         </Typography>
 
-        
         <img src={banner_img} alt='banner' className='banner-img'  />
-
 
     </Box>
     
