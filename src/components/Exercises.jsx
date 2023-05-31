@@ -1,6 +1,3 @@
-
-
-
 import { Box, Pagination, Typography } from '@mui/material'
 import { Stack } from '@mui/system'
 import React, { useState } from 'react'
@@ -56,4 +53,4 @@ const Exercises = ({exercises,setExercises,bodyPart}) => {
   )
 }
 
-export default Exercises
+export default Exercises;
