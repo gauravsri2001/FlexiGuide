@@ -1,5 +1,3 @@
-
-
 import { Stack, Typography } from '@mui/material';
 import React from 'react';
 import card_logo from '../pics/card_logo.png'

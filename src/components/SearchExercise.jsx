@@ -74,7 +74,10 @@ const SearchExercise = ({setExercises, bodyPart, setBodyPart}) => {
       fontSize: {lg: '20px', xs: '14px'},
       height: '56px', 
       position: "absolute",
-      right: '0'
+      right: '0',
+      "&:hover" : {
+        bgcolor: '#FE8040'
+      }
       }}
       onClick={handleSearch}
       >
@@ -86,7 +89,8 @@ const SearchExercise = ({setExercises, bodyPart, setBodyPart}) => {
     <Box sx={{position: 'relative', width: '100%' , p: '20px'}}>
     <HorizontalScrollbar data={bodyParts} bodyParts
       bodyPart = {bodyPart}
-      setBodyPart={setBodyPart}
+      setBodyPart={setBodyPart} isBodyParts
+      
     /> 
     
     </Box>
