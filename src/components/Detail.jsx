@@ -32,11 +32,11 @@ const Detail = ({exerciseDetail}) => {
     <img src={gifUrl} alt={name}  className='detail-image' style={{borderRadius:'10%'}} />
 
     <Stack sx={{gap: {lg: '35px', xs: '20px'}}}>
-      <Typography variant='h3'sx={{color:'white'}}>
+      <Typography variant='h3'sx={{color:'#f2f2f2'}}>
         {name}
       </Typography>
 
-      <Typography sx={{ fontSize: { lg: '24px', xs: '18px' } }} color='#FFD95A'>
+      <Typography sx={{ fontSize: { lg: '22px', xs: '18px' } }} color='#FFD95A'>
           Exercises keep you strong.{' '}
           
           <span style={{ textTransform: 'capitalize' }}>{name}</span> is one of the best exercises to target your <span style={{ textTransform: 'capitalize' }}>{target}</span>.
@@ -51,7 +51,7 @@ const Detail = ({exerciseDetail}) => {
         <img src={item.icon} alt={bodyPart}  />
       </Button>
 
-      <Typography textTransform='capitalize' variant='h5'>
+      <Typography textTransform='capitalize' variant='h5' sx={{color: '#f2f2f2'}}>
         {item.name}
       </Typography>
 
