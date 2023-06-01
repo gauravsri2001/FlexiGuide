@@ -27,16 +27,15 @@ const Detail = ({exerciseDetail}) => {
   return (
     <Stack 
     gap={'60px'}
-    
     sx={{flexDirection: {lg: 'row'}, p: '20px', alignItems: 'center'}}>
-    <img src={gifUrl} alt={name}  className='detail-image' style={{borderRadius:'10%'}} />
+    <img src={gifUrl} alt={name}  className='detail-image' style={{borderRadius:'5%', height:'auto'}} />
 
     <Stack sx={{gap: {lg: '35px', xs: '20px'}}}>
-      <Typography variant='h3'sx={{color:'#f2f2f2'}}>
+      <Typography variant='h3'sx={{color:'#f2f2f2'}} textTransform={'capitalize'}>
         {name}
       </Typography>
 
-      <Typography sx={{ fontSize: { lg: '22px', xs: '18px' } }} color='#FFD95A'>
+      <Typography sx={{ fontSize: { lg: '22px', xs: '18px' } }} color='#FFD95A' textAlign={'justify'}>
           Exercises keep you strong.{' '}
           
           <span style={{ textTransform: 'capitalize' }}>{name}</span> is one of the best exercises to target your <span style={{ textTransform: 'capitalize' }}>{target}</span>.
@@ -59,17 +58,6 @@ const Detail = ({exerciseDetail}) => {
 
     ))};
     </Stack>
-
-    {/* <Typography variant='h6'>
-      {name} {` `} is one of the best exercises to target your {target}.
-      When done with the right form and technique, it can help a great deal in increasing 
-      the strength of the oblique, and the overall strength and stability of the core.
-      It will help you improve your mood and ain energy.
-    </Typography> */}
-
-    
-
-
 
     </Stack>
   )
