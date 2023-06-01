@@ -1,8 +1,9 @@
-FlexiGuide
+**FlexiGuide**
 
 The FlexiGuide is a dynamic web application developed using React.js and Material-UI. It offers a wide range of features to help users in their fitness journey, including the ability to choose exercise categories, browse over one thousand exercises with practical examples, pagination, exercise details, pull related videos from YouTube, and display similar exercises.
 
 Features
+
 Exercise Categories: Users can easily navigate through various exercise categories, allowing them to focus on specific muscle groups or fitness goals.
 
 Extensive Exercise Library: The app provides access to a vast collection of over one thousand exercises, each accompanied by practical examples and instructions.
