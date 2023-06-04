@@ -4,14 +4,14 @@ The FlexiGuide is a dynamic web application developed using React.js and Materia
 
 <h1> Features </h1>
 
-<b>Exercise Categories: </b> Users can easily navigate through various exercise categories, allowing them to focus on specific muscle groups or fitness goals.
+<b>1. Exercise Categories: </b> Users can easily navigate through various exercise categories, allowing them to focus on specific muscle groups or fitness goals.
 
-<b>Extensive Exercise Library:</b> The app provides access to a vast collection of over one thousand exercises, each accompanied by practical examples and instructions.
+<b>2. Extensive Exercise Library:</b> The app provides access to a vast collection of over one thousand exercises, each accompanied by practical examples and instructions.
 
-<b>Pagination:</b> To improve user experience and optimize performance, the exercise library is paginated, enabling users to explore exercises efficiently.
+<b>3. Pagination:</b> To improve user experience and optimize performance, the exercise library is paginated, enabling users to explore exercises efficiently.
 
-<b>Exercise Details:</b> Users can view comprehensive details for each exercise, including descriptions, variations, equipment needed, and target muscle groups.
+<b>4. Exercise Details:</b> Users can view comprehensive details for each exercise, including descriptions, variations, equipment needed, and target muscle groups.
 
-<b>YouTube Integration:</b> The app leverages the YouTube API to fetch related exercise videos, giving users visual references and demonstrations for each exercise.
+<b>5. YouTube Integration:</b> The app leverages the YouTube API to fetch related exercise videos, giving users visual references and demonstrations for each exercise.
 
-<b>Similar Exercises:</b> Users can discover similar exercises based on the exercise they are currently viewing, allowing them to diversify their workout routine.
+<b>6. Similar Exercises:</b> Users can discover similar exercises based on the exercise they are currently viewing, allowing them to diversify their workout routine.
