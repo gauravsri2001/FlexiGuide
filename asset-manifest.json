@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/FlexiGuide/static/css/main.f041ca73.css",
+    "main.js": "/FlexiGuide/static/js/main.0c05aa3b.js",
+    "static/js/787.7600bb82.chunk.js": "/FlexiGuide/static/js/787.7600bb82.chunk.js",
+    "static/media/banner_img.png": "/FlexiGuide/static/media/banner_img.07363d6f5b4e143ec01f.png",
+    "static/media/EquipmentImage.png": "/FlexiGuide/static/media/EquipmentImage.925add867b7b67e0af31.png",
+    "static/media/BodyPartImage.png": "/FlexiGuide/static/media/BodyPartImage.4c721b5c140be78c9aeb.png",
+    "static/media/TargetImage.png": "/FlexiGuide/static/media/TargetImage.9aa484a412b1a3939e45.png",
+    "index.html": "/FlexiGuide/index.html",
+    "main.f041ca73.css.map": "/FlexiGuide/static/css/main.f041ca73.css.map",
+    "main.0c05aa3b.js.map": "/FlexiGuide/static/js/main.0c05aa3b.js.map",
+    "787.7600bb82.chunk.js.map": "/FlexiGuide/static/js/787.7600bb82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f041ca73.css",
+    "static/js/main.0c05aa3b.js"
+  ]
+}
