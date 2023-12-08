@@ -15,3 +15,5 @@ The FlexiGuide is a dynamic web application developed using React.js and Materia
 <b>5. YouTube Integration:</b> The app leverages the YouTube API to fetch related exercise videos, giving users visual references and demonstrations for each exercise.
 
 <b>6. Similar Exercises:</b> Users can discover similar exercises based on the exercise they are currently viewing, allowing them to diversify their workout routine.
+
+https://gauravsri2001.github.io/FlexiGuide/
