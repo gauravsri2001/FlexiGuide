@@ -1,6 +1,6 @@
 
 <h1> FlexiGuide </h1>
-The FlexiGuide is a dynamic web application developed using React.js and Material-UI. It offers a wide range of features to help users in their fitness journey, including the ability to choose exercise categories, browse over one thousand exercises with practical examples, pagination, exercise details, pull related videos from YouTube, and display similar exercises.
+The FlexiGuide is a dynamic fitness web application developed using React.js and Material-UI. It offers a wide range of features to help users in their fitness journey, including the ability to choose exercise categories, browse over one thousand exercises with practical examples, pagination, exercise details, pull related videos from YouTube, and display similar exercises.
 
 <h1> Features </h1>
 
